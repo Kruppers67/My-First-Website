@@ -1,1 +1,115 @@
-
+.mainbox1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(67, 53, 80);
+    color: white;
+    padding: 0 0 100px 0;
+}
+    .header {
+        padding: 0 0 0 370px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        list-style-type: none;
+        font-size: larger;
+        align-items: center;
+        padding: 0 400px 0 0;
+        font-size: x-large;
+        font-weight: 700;
+    
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+.mainbox2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 53, 80);
+    color: white;
+    padding: 0 0 300px 0;
+}
+    .mb2column1 {
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+    }
+    .header2.content1 {
+     display: flex;
+    }
+    .header2 {
+        font-size: 30px;
+    
+    }
+    .content1 {
+        font-size: 35px;
+    }
+    .mb2column2 {
+        display: flex;
+    }
+    .img1 {
+        width: 900px;
+        height: 500px;
+    }
+    .SignUp1 {
+        width: 120px;
+        height: 50px;
+        font-size: 25px;
+        border-radius: 20%;
+    }
+.mainbox3 {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+.mainbox4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+.img2 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+.img3 {
+    display: flex;
+    width: 200px;
+    height: 200px; 
+    border-radius: 20%;
+}
+.img4 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+.img5 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+.p1 {
+    width: 200px;
+    font-size: large;
+    text-align: center;
+}
+.mainbox5 {
+   display: flex;
+   justify-content: center;
+   padding: 200px 500px;
+}
+.p2 {
+    display: flex;
+    font-size: 30px;
+}
