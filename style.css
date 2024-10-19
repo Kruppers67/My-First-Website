@@ -70,6 +70,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    padding: 0 0 200px 0;
 }
 .content2 {
     display: flex;
@@ -107,9 +108,67 @@
 .mainbox5 {
    display: flex;
    justify-content: center;
-   padding: 200px 500px;
+   padding: 200px 755px 0 755px;
+   background-color: rgb(232, 225, 239);
 }
 .p2 {
     display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(43, 40, 43)
+}
+.mainbox6 {
+    display: flex;
+    justify-content: end;
+    padding: 0 755px 200px 755px;
+    background-color: rgb(232, 225, 239);
+}
+.p3 {
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(71, 18, 71)
+}
+.mainbox7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 130px 0 90px 0;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 100px 70px 100px;
+    background-color:rgb(111, 120, 145);
+    color: white;
+    justify-content: start;
+}
+.bheader {
+   display: flex; 
+   font-weight: 900;
+}
+.bcontent {
+    display: flex;
+    font-size: 20px;
+}
+.buttonbox {
+    display: flex;
+    align-items: center;
+    background-color:rgb(111, 120, 145);
+    padding: 70px 30px 70px 30px
+}
+.SignUp2 {
+    width: 110px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 20%;
+}
+.mainbox8 {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+.p4 {
     font-size: 30px;
+    color: white;
 }
